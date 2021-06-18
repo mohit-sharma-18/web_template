@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #2c3e50;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.navigation ul{
+    display: flex;
+    margin: 0px 0px 0px 200px;
+}
+.navigation ul li{
+    list-style: none;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+.navigation ul li:hover{
+   transform: scale(1.3);
+   transition: .5s all ease;
+    
+}
+.start h1{
+    font-size: 1.75em;
+    margin: 0px 200px 0px 0px;
+}
+.mid{
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.image h1{
+    font-size: 4rem;
+    color: #fff;
+}
+.image p{
+    color: #fff;
+    font-size: 1.5rem
+}
+.image img{
+    width: 13%;
+    margin-bottom: 20px;
+}
+.fa-star{
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    margin: 25px 0px;
+}
+
+.portfolio{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+.portfolio h1{
+    font-size: 3rem;
+    color: #2c3e50;
+}
+.portfolio i.fa-star{
+    color: #2c3e50;
+    margin: 15px 0px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one img , .two img{
+    width: 18%;
+   margin: 20px;
+   border-radius: 10px;
+}
+.second{
+    background-color: #1abc9c;
+    padding: 40px 0px 100px 0px;
+    margin: 40px 0px;
+}
+.about{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+.about h1{
+    font-size: 3rem;
+    color: #ffffff;
+}
+.fa-star{
+    color: #ffffff;
+    margin: 15px 0px;
+    display: inline-block;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 0px;
+}
+.text p{
+    font-size: 1.3rem;
+    padding: 0px 50px;
+}
+.btn{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    background-color:transparent;
+    padding: 20px 26px;
+    
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.btn a:hover{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color:#ffffff;
+    padding: 20px 26px;
+    
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.contact{
+    text-align: center;
+}
+.cnt p{
+    color: #2c3e50;
+    font-size: 3rem;
+    text-align: center;
+    
+    font-weight: bold;
+   
+}
+.cnt i{
+    color: #2c3e50;
+    font-size: 35px;
+    text-align: center;
+}
+
+.third{
+    text-align: center;
+    display: block;
+    width: 40%;
+    margin:auto;
+}
+.third form{
+    font-size: 2rem;
+}
+.third form label{
+    display: flex;
+}
+.send-btn button{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border:2px solid #fff;
+    background-color:#1abc9c;
+    margin-bottom: 30px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    border:0px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    font-size: 16px;
+    padding: 30px 0px;
+}
+input[type=text], select, textarea:focus{
+    outline: none;
+}
+.send-btn{
+    text-align: left;
+}
+
+footer{
+    background-color: #2c3e50;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    padding: 50px 0px;
+    
+    
+}
+.foot-1 h2,.foot-3 h2,.foot-2 h2{
+    padding: 20px 0px;
+    text-align: center;
+    
+}
+
+.links{
+    text-align: center;
+}
+.fa-facebook{
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.fa-twitter{
+    border: 2px solid #fff;
+    padding: 15px 18px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0px 5px;
+}
+.fa-linkedin{
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fa-dribbble{
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.foot div{
+    flex-basis: 33.33%;
+}
+.foot p{
+    text-align: center;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.foot-4{
+    background-color:#091520;
+    color: #fff;
+    font-size: .8rem;
+    padding: 25px 0px;
+   
+}
+.line{
+    display: inline-block;
+    max-width: 5.7rem;
+    width: 100%;
+    height: 2px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.portfolio div.line{
+    border: 2px solid #2c3e50;
+}
+.cnt div.line{
+    border: 2px solid #2c3e50;
+}
+
+
+.nav-sm{
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) { 
+    .start h1{
+        margin: 0;
+    }
+    .one img, .two img{
+        width: 24%;
+    }
+    .foot{
+        width: 100%;
+    }
+    .text{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 900px){
+    .navigation ul{
+        margin-left: 100px;
+    }
+    .foot{
+        display: block;
+    }
+    .foot-2{
+        padding: 40px 0px;
+    }
+    .text{
+        width: 100%;
+    }
+    .cnt p{
+        font-size: 2rem;
+    }
+    .line{
+        max-width: 3.7rem;
+    }
+    .third{
+        width:70%
+    }
+}
+@media screen and (max-width: 767px){
+    .navbar{
+        padding: 0px 15px;
+        min-height: 70px;
+        justify-content: space-between;
+    }
+    .one,.two{
+        flex-direction: column;
+    }
+    .one img, .two img{
+        width: 60%;
+    }
+    .nav-xl{
+        display: none;
+    }
+    .nav-sm{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .nav-sm h1{
+        margin: 0;
+    }
+    .nav-sm .nav-btn{
+        text-align: right;
+    }
+    .nav-sm .nav-btn a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 2em;
+    }
+    .nav-sm .navigation ul{
+        display: none;
+        margin: 0;
+        margin-top: 10px;
+        overflow: hidden;
+        transition: all .5s;
+    }
+    .nav-sm .navigation ul li{
+        margin: 0;
+        padding: 8px 0px;
+    }
+
+    .image h1 {
+        font-size: 5vh;
+    } 
+    .image img {
+        width: 25%;
+    }
+    .image p{
+        font-size: 1.3rem;
+    } 
+    .text{
+        display: block;
+    }
+    .text p{
+        padding: 20px 50px;
+    }
+}
